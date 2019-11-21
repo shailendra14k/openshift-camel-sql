@@ -20,7 +20,7 @@
             </setHeader>
             <recipientList id="_recipientList1">
                 <simple>
-					sql:insert into ${in.header.TableName} (id, value) values(1,'test')
+					sql:insert into ${in.header.TableName} (id, name) values(1,'test')
 				</simple>
             </recipientList>
             <log id="_log1" message="Inserted new order!"/>
